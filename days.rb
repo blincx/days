@@ -20,7 +20,7 @@ now = DateTime.now
 diff = now.mjd - birthDate.mjd
 birthdiff = diff.to_s
 finalnum = birthdiff[0..1] + "," + birthdiff[2..-1]
-print "\nContragulations! You have been alive #{finalnum} days on the planet!"
+print "\nContragulations! You have been alive #{finalnum} days on the planet!\n\n"
 
 
 
